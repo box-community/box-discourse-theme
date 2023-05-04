@@ -1,0 +1,34 @@
+{
+  "name": "Box",
+  "component": false,
+  "license_url": null,
+  "about_url": null,
+  "authors": "Box DevRel",
+  "theme_version": 0.1,
+  "minimum_discourse_version": null,
+  "maximum_discourse_version": null,
+  "assets": {
+    "agent-bg": "assets/agent-background.png",
+    "agent-fg": "assets/agent-foreground.png",
+    "bubble-bg": "assets/bubble-background.png",
+    "bubble-fg": "assets/bubble-foreground.png",
+    "boxdev-logo": "assets/boxdev-logo-blue.svg"
+  },
+  "color_schemes": {
+    "Box": {
+      "primary": "222222",
+      "secondary": "ffffff",
+      "tertiary": "0088cc",
+      "quaternary": "e45735",
+      "header_background": "0061D5",
+      "header_primary": "ffffff",
+      "highlight": "ffff4d",
+      "danger": "e45735",
+      "success": "009900",
+      "love": "fa6c8d"
+    }
+  },
+  "modifiers": {
+  },
+  "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
+}

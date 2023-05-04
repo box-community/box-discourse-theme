@@ -1,0 +1,187 @@
+.d-header {
+    height: 72px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: #0061D5;  /* Box Blue/100 */
+}
+
+.menu-panel.drop-down {
+    /* MenuBlock */
+    box-sizing: border-box;
+    
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+    
+    width: 244px;
+    height: 346px;
+    
+    /* Gray/White */
+    background: #FFFFFF;
+    
+    /* Gray/10 */
+    border: 1px solid #E8E8E8;
+    
+    /* Drop Shadow/Dropdown */
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.list-controls .nav-pills .navigation-toggle {
+    width: 137px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #BCBCBC;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+}
+
+.select-kit .combo-box .category-drop {
+    width: 137px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #BCBCBC;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+}
+
+.nav-pills li a {
+    //width: 103px;
+    height: 32px;
+    text-align:center;
+    background: #F4F4F4;
+    border-radius: 32px;
+}
+
+.nav-pills li a.active {
+    background: #0061D5;
+}
+
+.btn {
+    align-items: center;
+    padding: 0px 16px;
+    height: 40px;
+    background: #0061D5;
+    border-radius: 6px;
+    color: #FFFFFF;
+}
+
+.btn .d-icon {
+    display: none;
+}
+
+#reply-control .reply-to .composer-controls .d-icon {
+    display: none;
+}
+
+.btn.no-text .d-icon {
+    display: inline-flex;
+    color: #FFFFFF;
+}
+
+.btn[href] {
+    color: #FFFFFF;
+}
+
+.category-breadcrumb {
+    order:2;
+}
+
+.navigation-controls {
+    order:3;
+}
+
+.list-controls .combo-box .combo-box-header {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 12px;
+    gap: 8px;
+    width: 137px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #BCBCBC;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0 30px;
+}
+
+table thead tr th {
+    border-bottom: 3px solid var(--primary-low);
+}
+
+.category-list tbody .category {
+    border-width: 12px;
+    border-radius: 6px 0px 0px 6px;
+}
+
+.latest-topic-list .table-heading {
+    //border-bottom: 3px solid var(--primary-low);
+    margin: 30px 0 0 0;
+}
+
+.subcategory .badge-wrapper.bullet .badge-category {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    color: #222222;
+    border-radius: 47px;
+    padding: 2px 8px;
+}
+
+// SDKs and Tools
+tr[data-category-id="6"] td.category .subcategories .subcategory .badge-wrapper.bullet .badge-category { 
+    background: #E5EFFA;
+}
+
+// General
+tr[data-category-id="8"] td.category .subcategories .subcategory .badge-wrapper.bullet .badge-category { 
+    background: #F5EBFD;
+}
+
+// Box Platform
+tr[data-category-id="15"] td.category .subcategories .subcategory .badge-wrapper.bullet .badge-category { 
+    background: #E8E8E8;
+}
+
+.subcategory .badge-wrapper.bullet .badge-category-bg {
+    display: none !important;
+}
+
+.badge-wrapper.bullet .badge-category-bg {
+    border-radius: 50%;
+}
+
+h1 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: #222222;
+}
+
+p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    color: #222222;
+}
