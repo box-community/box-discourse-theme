@@ -8,8 +8,6 @@
   "minimum_discourse_version": null,
   "maximum_discourse_version": null,
   "assets": {
-    "agent-bg": "assets/agent-background.png",
-    "agent-fg": "assets/agent-foreground.png",
     "bubble-bg": "assets/bubble-background.png",
     "bubble-fg": "assets/bubble-foreground.png",
     "boxdev-logo": "assets/boxdev-logo-blue.svg"

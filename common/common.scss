@@ -1,12 +1,90 @@
+body {
+    font-family: 'Lato';
+    font-style: normal;
+    letter-spacing: 0.3px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: #222222;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #222222;
+}
+
 .d-header {
-    height: 72px;
+    background-color: #0061d5;
+    color: #fff;
+    height: 60px;
+    line-height: 60px;
+    vertical-align: middle;
     margin: 0;
     padding: 0;
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    background: #0061D5;  /* Box Blue/100 */
+    width: 100%;
+    z-index: 10;
+    font-size: 16px;
+    position: fixed;
+}
+
+#site-logo {
+    height: 1.4em !important;
+    width: 5.32em !important;
+    padding: 0;
+}
+
+.d-header-icons .d-icon {
+    height: 24px;
+    width: 24px;
+    color: #FFFFFF;
+}
+
+.sign-up-button {
+    display: none;
+}
+
+.d-modal.login-modal:not(.hidden) #new-account-link {
+    display: none;
+}
+
+.login-button {
+    box-sizing: border-box;
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 16px;
+    gap: 8px;
+    
+    width: 89px;
+    height: 32px;
+    right: 56px;
+    top: 14px;
+    
+    /* Gray/White */
+    
+    border: 1px solid #FFFFFF;
+    border-radius: 6px;
+    
+    
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    
+    text-align: center;
+    
+    /* Gray/White */
+    
+    color: #FFFFFF;
 }
 
 .menu-panel.drop-down {
@@ -97,22 +175,6 @@
     order:3;
 }
 
-.list-controls .combo-box .combo-box-header {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 12px;
-    gap: 8px;
-    width: 137px;
-    height: 40px;
-    background: #FFFFFF;
-    border: 1px solid #BCBCBC;
-    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 6px;
-}
-
 table {
     border-collapse: separate;
     border-spacing: 0 30px;
@@ -127,21 +189,29 @@ table thead tr th {
     border-radius: 6px 0px 0px 6px;
 }
 
-.latest-topic-list .table-heading {
-    //border-bottom: 3px solid var(--primary-low);
-    margin: 30px 0 0 0;
+.category-list .category-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.category-list .category .category-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #222222;
 }
 
 .subcategory .badge-wrapper.bullet .badge-category {
-    font-family: 'Lato';
-    font-style: normal;
+    border-radius: 47px;
+    padding: 2px 8px;
+}
+
+.badge-wrapper .badge-category .category-name {
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
-    letter-spacing: 0.3px;
     color: #222222;
-    border-radius: 47px;
-    padding: 2px 8px;
 }
 
 // SDKs and Tools
@@ -167,21 +237,14 @@ tr[data-category-id="15"] td.category .subcategories .subcategory .badge-wrapper
     border-radius: 50%;
 }
 
-h1 {
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 36px;
-    color: #222222;
+.latest-topic-list .table-heading {
+    //border-bottom: 3px solid var(--primary-low);
+    margin: 30px 0 0 0;
 }
 
-p {
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
+.latest-topic-list-item .main-link a.title {
+    font-weight: 700;
+    font-size: 16px;
     line-height: 24px;
-    letter-spacing: 0.3px;
-    color: #222222;
+    color: #0061D5;
 }

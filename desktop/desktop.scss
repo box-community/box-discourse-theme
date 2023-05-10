@@ -1,3 +1,207 @@
+#top-menu {
+    position: fixed;
+    z-index: 10000;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10px;
+    background: transparent;
+    width: auto;
+}
+
+.top-menu .menu-item {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.top-menu .menu-item:hover .d-header-dropdown {
+    /* MenuBlock */
+    box-sizing: border-box;
+    
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+    
+    width: 320px;
+    height: auto;
+    
+    /* Gray/White */
+    background: #FFFFFF;
+    
+    /* Gray/10 */
+    border: 1px solid #E8E8E8;
+    
+    /* Drop Shadow/Dropdown */
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.top-menu .d-dropdown-menu {
+    min-width:unset;
+    box-shadow:unset;
+    width:100%;
+}
+
+.top-menu .submenu-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #222222;
+    margin-bottom: 14px;
+}
+
+.top-menu .submenu-link[title="Dev Docs Header"],
+.top-menu .submenu-link[title="AddRes Header"] {
+    font-weight: 700;
+}
+
+.top-menu .submenu-link[title="AddRes Header"] {
+    margin-top:50px;
+}
+
+.d-header .wrap .contents {
+    width: 98vw;
+    position: relative;
+    left: calc(-50vw + 50%);
+    padding: 0 24px;
+}
+
+.custom-header-links .top-level-links {
+    position: relative;
+    left: calc(50vw - 100%);
+}
+
+.custom-header-links .top-level-links .custom-header-link,
+.custom-header-links .top-level-links .custom-header-link-with-url {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    
+    /* Text on Dark/Default */
+    
+    color: #FFFFFF;
+}
+
+.custom-header-links .top-level-links .custom-header-link:hover,
+.custom-header-links .top-level-links .custom-header-link-with-url:hover {
+    color: #FFFFFF;
+} 
+
+//.custom-header-links .top-level-links .custom-header-link .custom-header-link-caret {
+//    display: none;
+//}
+
+.search-menu .menu-panel.drop-down,
+.custom-header-links .top-level-links .custom-header-dropdown {
+    width: 500px;
+    height: auto;
+    filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.1));
+}
+
+.custom-header-links .top-level-links .custom-header-dropdown li {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    
+    /* Text on Light/Default */
+    
+    color: #222222;
+}
+
+.custom-header-links .top-level-links .custom-header-dropdown li[title="Documentation"],
+.custom-header-links .top-level-links .custom-header-dropdown li[title="Additional Resources"] {
+    font-weight: 700;
+}
+
+.custom-header-links .top-level-links .custom-header-dropdown li[title="Additional Resources"] {
+    margin-top: 25px;
+}
+
+.menu-links.columned li {
+  width: 100%;
+}
+
+.menu-panel .widget-link.new-topics-link,
+.menu-panel .widget-link.unread-topics-link,
+.menu-panel .widget-link.review,
+.menu-panel .widget-link.badge-link,
+.menu-panel .widget-link.groups-link,
+.menu-panel .widget-link.mobile-toggle-link{
+    display:none;
+}
+
+ul.category-links {
+  display: none;
+}
+
+.categories-separator {
+    display: none;
+}
+
+.search-menu .menu-panel.drop-down .panel-body {
+    width:100%;
+}
+
+.search-menu .search-input {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 5px;
+    line-height:14px;
+    gap: 8px;
+    vertical-align: center;
+    width: 458px;
+    height: 30px;
+    margin-bottom: 29px;
+    
+    /* Gray/White */
+    
+    background: #FFFFFF;
+    /* Light Blue/100 */
+    
+    border: 2px solid #2486FC;
+    /* Inner Shadow/Text Input */
+    
+    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+}
+
+.search-menu .results {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    vertical-align: center;
+    width: 468px;
+    height: 36px;
+}
+
+.search-menu .search-random-quick-tip {
+    width: 100%;
+    height: 30px;
+    line-height:22px;
+    background: #FFFFFF;
+}
+
+.search-menu .search-random-quick-tip .tip-label.tip-clickable {
+    width: 24px;
+    height: 24px;
+    background: #EAF0FD;
+    text-align: center;
+    margin-right: 5px;
+    
+    font-weight: 400;
+    font-size: 12px;
+    color: #6F6F6F;
+}
+
+.tip-description {
+    font-weight: 400;
+    font-size: 12px;
+    color: #6F6F6F;
+}
+
 #main .box-banner {
     width: 100vw;
     position: relative;
@@ -23,4 +227,20 @@
     position: relative;
     height: 200px;
     width: 90vw !important;
+}
+
+.list-controls .combo-box .combo-box-header {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 12px;
+    gap: 8px;
+    width: 137px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #BCBCBC;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
 }
