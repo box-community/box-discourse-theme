@@ -1,5 +1,10 @@
+@font-face {
+    font-family: lato;
+    src: url($lato) format('woff2')
+  }
+
 body {
-    font-family: $lato, sans-serif;
+    font-family: lato;
     font-style: normal;
     letter-spacing: 0.3px;
 }
