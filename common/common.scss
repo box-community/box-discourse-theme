@@ -146,6 +146,12 @@ p {
     background: #0061D5;
 }
 
+.nav-pills>li>a:hover:not(.active),
+.nav-pills>li button:hover:not(.active) {
+    background: #fbfbfb;
+    color: #222222;
+}
+
 .btn {
     align-items: center;
     padding: 0px 16px;
@@ -257,6 +263,14 @@ tr[data-category-id="7"] td.category .subcategories .subcategory .badge-wrapper.
     font-size: 16px;
     line-height: 24px;
     color: #0061D5;
+}
+
+.latest-topic-list-item.visited .main-link a.title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F5EBFD;
+    ;
 }
 
 #banner-content_wrap .banner-box.third_column {

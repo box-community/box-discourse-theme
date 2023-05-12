@@ -38,6 +38,10 @@
     border-radius: 8px;
 }
 
+.top-menu .menu-item:hover .d-header-dropdown {
+    display:none;
+}
+
 .top-menu .d-dropdown-menu {
     min-width:unset;
     box-shadow:unset;
