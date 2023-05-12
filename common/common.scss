@@ -1,5 +1,5 @@
 body {
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     letter-spacing: 0.3px;
 }
@@ -247,4 +247,21 @@ tr[data-category-id="15"] td.category .subcategories .subcategory .badge-wrapper
     font-size: 16px;
     line-height: 24px;
     color: #0061D5;
+}
+
+#banner-content_wrap .banner-box.third_column {
+    display: none;
+}
+
+#banner-content_wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.banner-box .row {
+    justify-content: flex-start;
+}
+
+.second_column.single-box {
+    margin-left: auto;
 }

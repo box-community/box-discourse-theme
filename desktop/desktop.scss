@@ -202,6 +202,29 @@ ul.category-links {
     color: #6F6F6F;
 }
 
+#main .banner-box {
+    margin-top:62px;
+}
+
+.banner-box .row {
+    padding-top: 20px;
+}
+
+.banner-box .row .single-box,
+.banner-box h1 {
+    font-family: 'Lato';
+    text-align: left;
+    vertical-align:center;
+}
+
+.banner-box .row .single-box .icon {
+    text-align: right !important
+}
+
+.banner-box .row .single-box .icon .responsive-img {
+    background: url($bubble-bg);
+}
+
 #main .box-banner {
     width: 100vw;
     position: relative;
