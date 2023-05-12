@@ -10,7 +10,8 @@
   "assets": {
     "bubble-bg": "assets/bubble-background.png",
     "bubble-fg": "assets/bubble-foreground.png",
-    "boxdev-logo": "assets/boxdev-logo-blue.svg"
+    "boxdev-logo": "assets/boxdev-logo-blue.svg",
+    "lato": "assets/Lato-Regular.woff2"
   },
   "color_schemes": {
     "Box": {

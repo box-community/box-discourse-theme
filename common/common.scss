@@ -214,19 +214,24 @@ table thead tr th {
     color: #222222;
 }
 
-// SDKs and Tools
-tr[data-category-id="6"] td.category .subcategories .subcategory .badge-wrapper.bullet .badge-category { 
+// General
+tr[data-category-id="4"] td.category .subcategories .subcategory .badge-wrapper.bullet .badge-category { 
     background: #E5EFFA;
 }
 
-// General
-tr[data-category-id="8"] td.category .subcategories .subcategory .badge-wrapper.bullet .badge-category { 
+// SDKs and Tools
+tr[data-category-id="5"] td.category .subcategories .subcategory .badge-wrapper.bullet .badge-category { 
     background: #F5EBFD;
 }
 
 // Box Platform
-tr[data-category-id="15"] td.category .subcategories .subcategory .badge-wrapper.bullet .badge-category { 
+tr[data-category-id="6"] td.category .subcategories .subcategory .badge-wrapper.bullet .badge-category { 
     background: #E8E8E8;
+}
+
+// Product APIs
+tr[data-category-id="6"] td.category .subcategories .subcategory .badge-wrapper.bullet .badge-category { 
+    background: #FFFBE5;
 }
 
 .subcategory .badge-wrapper.bullet .badge-category-bg {
