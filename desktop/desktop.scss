@@ -14,7 +14,7 @@
     line-height: 24px;
 }
 
-.top-menu .menu-item:hover .d-header-dropdown {
+.top-menu .menu-item .d-header-dropdown {
     /* MenuBlock */
     box-sizing: border-box;
     
@@ -38,7 +38,7 @@
     border-radius: 8px;
 }
 
-.top-menu .menu-item:hover .d-header-dropdown {
+.top-menu .menu-item.community:hover .d-header-dropdown {
     display:none;
 }
 
