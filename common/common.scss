@@ -165,11 +165,11 @@ p {
     display: none;
 }
 
-#reply-control .reply-to .composer-controls .d-icon {
+#reply-control .reply-to .composer-controls .d-icon:not(.d-icon-discourse-expand):not(.d-icon-chevron-down):not(.d-icon-angle-double-left) {
     display: none;
 }
 
-.btn.no-text .d-icon {
+.btn.no-text:not(.quote):not(.bold):not(.italic):not(.link):not(.blockquote):not(.upload):not(.emoji):not(.local-dates) .d-icon {
     display: inline-flex;
     color: #FFFFFF;
 }
@@ -295,4 +295,16 @@ tr[data-category-id="7"] td.category .subcategories .subcategory .badge-wrapper.
 
 .second_column.single-box {
     margin-left: auto;
+}
+
+.open .grippie {
+    background: #000C1A;
+}
+
+.open .grippie:before {
+    border-top: 3px double #FFFFFF;
+}
+
+.d-editor-button-bar .btn {
+    background-color: unset;
 }
