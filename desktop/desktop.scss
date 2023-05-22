@@ -235,31 +235,9 @@ ul.category-links {
     background: url($bubble-bg);
 }
 
-#main .box-banner {
-    width: 100vw;
-    position: relative;
-    left: calc(-50vw + 50%);
-    height: 138px;
-    max-width: unset;
-    display: flex;
-    margin: -35px 0 32px;
-    padding: 62px 0px 0px;
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    background: #E5EFFA;
-}
-
-#main .box-banner .container {
-    align-items:center;
-    align-self:center;
-    display:flex;
-    margin:0px auto;
-    max-width: 1110px !important;
-    position: relative;
-    height: 200px;
-    width: 90vw !important;
+.alert .close {
+    top: -1px;
+    color:#222222;
 }
 
 .list-controls .combo-box .combo-box-header {
