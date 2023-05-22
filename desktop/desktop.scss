@@ -61,6 +61,11 @@
     font-weight: 700;
 }
 
+.top-menu .submenu-link[title="DevDocs Header"]:hover,
+.top-menu .submenu-link[title="AddRes Header"]:hover {
+    background-color: #FFFFFF;
+}
+
 .top-menu .submenu-link[title="AddRes Header"] {
     margin-top:50px;
 }
