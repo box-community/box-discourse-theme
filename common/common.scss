@@ -168,7 +168,7 @@ p {
 }
 
 .btn.btn-mini-toggle:hover {
-    background: #fbfbfb;
+    background: #E8E8E8;
     color: #222222;
 }
 
@@ -310,6 +310,7 @@ tr[data-category-id="7"] td.category .subcategories .subcategory .badge-wrapper.
 .btn.no-text .d-icon.d-icon.d-icon-angle-double-left {
     color: #222222;
     background: #E8E8E8;
+    display:block;
 }
 
 #reply-control .reply-to .composer-action-title .d-icon, 
