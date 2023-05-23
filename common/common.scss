@@ -270,10 +270,14 @@ p {
 .btn[href] {
     color: #FFFFFF;
 }
-
 .popup-menu .btn {
     color: #222222;
 }
+
+.consent_banner.alert.alert-info .btn-link.btn-text .d-button-label {
+    color: #222222 !important;
+}
+
 
 .d-button-label {
     color: #FFFFFF;
