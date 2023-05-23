@@ -102,7 +102,11 @@ p {
 
 .menu-links.columned li {
     width: 100%;
-  }
+}
+
+.sidebar-section-wrapper .sidebar-section-header-text {
+    font-weight:700;
+}
 
 .sidebar-section-link-wrapper:has(a[data-link-name="everything"])
 .sidebar-section-link-wrapper:has(a[data-link-name="everything"]),
