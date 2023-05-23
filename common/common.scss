@@ -104,12 +104,15 @@ p {
     width: 100%;
   }
   
-  .menu-panel .widget-link.new-topics-link,
-  .menu-panel .widget-link.unread-topics-link,
-  .menu-panel .widget-link.review,
-  .menu-panel .widget-link.badge-link,
-  .menu-panel .widget-link.groups-link,
-  .menu-panel .widget-link.mobile-toggle-link{
+  .sidebar-section-link-wrapper .sidebar-section-link[data-link-name="everything"],
+  .sidebar-section-link-wrapper .sidebar-section-link[data-link-name="my-posts"],
+  .sidebar-section-link-wrapper .sidebar-section-link[data-link-name="review"],
+  .sidebar-section-link-wrapper .sidebar-section-link[data-link-name="users"],
+  .sidebar-section-link-wrapper .sidebar-section-link[data-link-name="groups"]
+  .sidebar-section-link-wrapper .sidebar-section-link[data-link-name="badges"],
+  .sidebar-section-link-wrapper .sidebar-section-link[data-link-name="anniversaries"],
+  .sidebar-section-link-wrapper .sidebar-section-link[data-link-name="birthdays"]
+  {
       display:none;
   }
   
