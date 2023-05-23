@@ -271,6 +271,14 @@ p {
     color: #FFFFFF;
 }
 
+.popup-menu .btn {
+    color: #222222;
+}
+
+.d-button-label {
+    color: #FFFFFF;
+}
+
 .category-breadcrumb {
     order:2;
 }
@@ -358,18 +366,19 @@ tr[data-category-id="7"] td.category .subcategories .subcategory .badge-wrapper.
 }
 
 .latest-topic-list .table-heading {
-    //border-bottom: 3px solid var(--primary-low);
     margin: 30px 0 0 0;
 }
 
-.latest-topic-list-item .main-link a.title {
+.latest-topic-list-item .main-link a.title,
+.topic-list .main-link a.title {
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
     color: #0061D5;
 }
 
-.latest-topic-list-item.visited .main-link a.title {
+.latest-topic-list-item.visited .main-link a.title,
+.topic-list-item.visited .topic-list-data a.title:not(.badge-notification) {
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
