@@ -50,7 +50,7 @@ p {
 }
 
 .d-header-icons .d-icon:hover {
-    background: unset;
+    background: none;
 }
 
 .sign-up-button {
@@ -97,7 +97,7 @@ p {
 }
 
 .login-button:hover {
-    background: #1D6BCA;
+    background: #1D6BCA !important;
 }
 
 .menu-links.columned li {
