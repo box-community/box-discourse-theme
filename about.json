@@ -17,14 +17,14 @@
     "Box": {
       "primary": "222222",
       "secondary": "ffffff",
-      "tertiary": "0088cc",
-      "quaternary": "e45735",
+      "tertiary": "0061D5",
+      "quaternary": "2486FC",
       "header_background": "0061D5",
       "header_primary": "ffffff",
-      "highlight": "ffff4d",
-      "danger": "e45735",
-      "success": "009900",
-      "love": "fa6c8d"
+      "highlight": "E9F2FE",
+      "danger": "F1811A",
+      "success": "26C281",
+      "love": "ED3757"
     }
   },
   "modifiers": {
