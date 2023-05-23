@@ -184,27 +184,43 @@ p {
   }
 
 .menu-panel.drop-down {
-    /* MenuBlock */
     box-sizing: border-box;
-    
-    /* Auto layout */
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 12px;
-    
     width: 244px;
-    height: 346px;
-    
-    /* Gray/White */
+    padding: 12px;
     background: #FFFFFF;
-    
-    /* Gray/10 */
     border: 1px solid #E8E8E8;
-    
-    /* Drop Shadow/Dropdown */
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+}
+
+
+
+.menu-panel .panel-body {
+    width: 100%;
+}
+
+.hamburger-panel .revamped .sidebar-section-wrapper.sidebar-section .sidebar-section-header-wrapper {
+    border: none;
+}
+
+.hamburger-panel .revamped .sidebar-section-wrapper.sidebar-section ul {
+    display: inline-block;
+    
+}
+
+.sidebar-section-link-wrapper .sidebar-section-link-prefix.icon {
+    display: none;
+}
+
+.hamburger-panel .revamped .sidebar-section-wrapper.sidebar-section ul li {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #222;
+    margin-bottom: 14px;
 }
 
 .list-controls .nav-pills .navigation-toggle {
@@ -276,6 +292,7 @@ p {
 
 .consent_banner.alert.alert-info .btn-link.btn-text .d-button-label {
     color: #222222 !important;
+    font-weight: 700;
 }
 
 
