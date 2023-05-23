@@ -103,6 +103,10 @@ p {
 .menu-links.columned li {
     width: 100%;
   }
+
+.sidebar-section-wrapper:has(a[data-link-name="everything"]) {
+    display:none;
+}
   
   .sidebar-section-link-wrapper .sidebar-section-link[data-link-name="everything"],
   .sidebar-section-link-wrapper .sidebar-section-link[data-link-name="my-posts"],
