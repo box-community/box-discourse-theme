@@ -15,12 +15,12 @@
 }
 
 .top-menu .menu-item:hover {
-    background: #EFEFFA;
+    background: #EFEFFA !important;
 }
 
 .top-menu .menu-item:active {
-    background: #FFFFFF;
-    color:#222222;
+    background: #FFFFFF !important;
+    color:#222222 !important;
 }
 
 .top-menu .menu-item:hover .d-header-dropdown {
