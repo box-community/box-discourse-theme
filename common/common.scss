@@ -286,18 +286,18 @@ p {
 .btn[href] {
     color: #FFFFFF;
 }
-.popup-menu .btn {
-    color: #222222;
-}
 
 .consent_banner.alert.alert-info .btn-link.btn-text .d-button-label {
     color: #222222 !important;
     font-weight: 700;
 }
 
-
 .d-button-label {
     color: #FFFFFF;
+}
+
+.popup-menu .btn .d-button-label {
+    color: #222222 !important;
 }
 
 .category-breadcrumb {
