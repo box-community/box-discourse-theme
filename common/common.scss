@@ -104,7 +104,7 @@ p {
     width: 100%;
   }
 
-.sidebar-section-wrapper:has(a[data-link-name="everything"]) {
+.sidebar-section-link-wrapper:has(a[data-link-name="everything"]) {
     display:none;
 }
   
