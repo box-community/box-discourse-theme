@@ -14,7 +14,7 @@
     line-height: 24px;
     color: #B2CFF2;
     transition: color 300ms ease-in-out;
-    cursor: pointer;
+    cursor: pointer !important;
 }
 
 .top-menu .menu-item:hover {
