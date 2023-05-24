@@ -290,6 +290,11 @@ display: none;
     background: #0061D5;
     border-radius: 6px;
     color: #FFFFFF;
+    transition: background-color 200ms ease-in-out;
+}
+
+.btn:hover {
+    background-color: #006AE9;
 }
 
 #reply-control #draft-status+.btn-mini-toggle,
@@ -363,13 +368,18 @@ table thead tr th {
 
 .category-list .topics {
     padding:16px;
-    border-top-right-radius: 6px;
-    border-bottom-right-radius: 6px;
 }
 
 .category-list thead .topics {
     border-radius: 0;
     background-color: #fff;
+}
+
+.category-list tbody .topics {
+    border-radius: 0;
+    background-color: --primary-low;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
 }
 
 .subcategory .badge-wrapper.bullet .badge-category {
@@ -501,4 +511,18 @@ tr[data-category-id="7"] td.category .subcategories .subcategory .badge-wrapper.
     box-sizing: border-box;
     border: 2px solid #2486FC;
     border-radius: 8px;
+}
+
+.nav-item_categories {
+    cursor: pointer;
+}
+
+.btn-flat.btn-text,
+.btn-text.json-editor-btn-collapse {
+    color: #fff;
+    transition: background-color 300ms ease-in-out;
+}
+
+button.btn.btn-flat.btn-text.btn-dismiss-all:hover {
+    background-color: --tertiary-hover;
 }
