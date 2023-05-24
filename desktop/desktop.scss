@@ -12,15 +12,13 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
+    color: #B2CFF2;
+    transition: color 300ms ease-in-out;
 }
 
 .top-menu .menu-item:hover {
-    background: #E5EFFA !important;
-}
-
-.top-menu .menu-item:active {
-    background: #FFFFFF !important;
-    color:#222222 !important;
+    background: transparent;
+    color: #FFFFFF;
 }
 
 .top-menu .menu-item:hover .d-header-dropdown {
@@ -51,6 +49,10 @@
     display:none;
 }
 
+.top-menu .community {
+    color: #fff;
+}
+
 .top-menu .d-dropdown-menu {
     min-width:unset;
     box-shadow:unset;
@@ -63,6 +65,12 @@
     line-height: 24px;
     color: #222222;
     margin-bottom: 14px;
+    border-radius: 6px;
+    transition: background-color 300ms ease-in-out;
+}
+
+.top-menu .submenu-link:hover {
+    background-color: #f5f6f8;
 }
 
 .top-menu .submenu-link[title="DevDocs Header"],
