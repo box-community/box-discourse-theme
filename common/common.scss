@@ -377,7 +377,7 @@ table thead tr th {
 
 .category-list tbody .topics {
     border-radius: 0;
-    background-color: --primary-low;
+    background-color: #fafcfe;
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
 }
@@ -525,4 +525,14 @@ tr[data-category-id="7"] td.category .subcategories .subcategory .badge-wrapper.
 
 button.btn.btn-flat.btn-text.btn-dismiss-all:hover {
     background-color: --tertiary-hover;
+}
+
+.discourse-no-touch .d-header-icons .icon:hover,
+.discourse-no-touch .d-header-icons .icon:focus {
+    background-color: transparent;
+}
+
+.discourse-no-touch .d-header-icons .icon:hover>.d-icon,
+.discourse-no-touch .d-header-icons .icon:focus>.d-icon {
+    color: #fff;
 }
