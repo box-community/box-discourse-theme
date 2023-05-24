@@ -373,6 +373,7 @@ table thead tr th {
 .category-list thead .topics {
     border-radius: 0;
     background-color: #fff;
+    padding: 12px;
 }
 
 .category-list tbody .topics {
@@ -427,7 +428,7 @@ tr[data-category-id="7"] td.category .subcategories .subcategory .badge-wrapper.
 }
 
 .latest-topic-list .table-heading {
-    margin: 38px 0 0 0;
+    margin: 30px 0 0 0;
 }
 
 .latest-topic-list-item .main-link a.title,
