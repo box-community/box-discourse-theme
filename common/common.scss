@@ -1062,10 +1062,21 @@ li.notification.read.private-message {
 .new-user-wrapper .user-navigation .nav-pills li a {
     background: #f4f4f4;
     color: #222;
+    transition: background-color 200ms ease-in-out;
 }
 
 .new-user-wrapper .user-navigation .nav-pills li a:hover,
 .new-user-wrapper .user-navigation .nav-pills li a:focus {
     background: #fbfbfb;
     color: #222;
+    border-bottom: transparent;
+}
+
+.new-user-wrapper .user-navigation .nav-pills li a.active:hover {
+    background-color:  #006AE9;
+}
+
+.nav-pills.user-nav .d-icon,
+.nav-pills.action-list .d-icon {
+    display: none;
 }
