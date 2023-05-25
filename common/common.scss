@@ -759,3 +759,61 @@ nav.post-controls .actions button.create .d-icon {
     padding: 10px;
     left: -50px;
 }
+
+.chat-emoji-picker {
+    padding: 10px;
+}
+
+.select-kit-collection {
+    padding: 10px;
+}
+
+.popup-menu {
+    border-radius: 6px;
+}
+
+#reply-control .category-input .category-chooser .select-kit-body {
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.select-kit.combo-box.category-chooser .select-kit-row {
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+.select-kit.is-expanded .select-kit-body {
+    border-radius: 6px;
+}
+
+.d-editor-button-bar {
+    grid-gap: 5px;
+    padding: 5px;
+}
+
+.select-kit-header-wrapper {
+    color: #4e4e4e !important;
+}
+
+.select-kit-header-wrapper:hover {
+    color: #fff !important;
+}
+
+.composer-popup {
+    border-radius: 6px;
+}
+
+.composer-popup a.close .d-icon {
+    color: #000;
+}
+
+#reply-control.draft, #reply-control.saving {
+    padding: 10px 5px 5px 5px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.btn-mini-toggle .d-icon {
+    display: inline;
+    color: #000 !important;
+}
