@@ -157,7 +157,7 @@ display: none;
     gap: 8px;
     vertical-align: center;
     width: 458px;
-    height: 30px;
+    height: 40px;
     margin-bottom: 29px;
     
     /* Gray/White */
@@ -173,8 +173,9 @@ display: none;
 }
 
 #search-term {
-    padding-top: 4px;
+    padding-top: 10px;
     padding-bottom: 4px;
+    background: transparent;
 }
 
 .search-menu .searching {
@@ -525,6 +526,7 @@ tr[data-category-id="7"] td.category .subcategories .subcategory .badge-wrapper.
 .chat-drawer-header__top-line .btn-flat .d-icon {
     display: inline;
     color: #fff;
+    padding: 10px;
 }
 
 #reply-control #reply-title,
@@ -681,4 +683,79 @@ nav.post-controls .actions button.create .d-icon {
 
 .search-container .search-bar input.search-query {
     border-radius: 6px;
+}
+
+.d-date-input .date-picker {
+    border-radius: 6px;
+    min-height: 40px;
+}
+
+.latest-topic-list-item.visited .main-link a.title,
+.topic-list-item.visited .topic-list-data a.title:not(.badge-notification) {
+    color: #0061d5;
+}
+
+.menu-panel.drop-down {
+    right: 20px;
+}
+
+.channels-list .open-browse-page-btn,
+.channels-list .open-draft-channel-page-btn,
+.channels-list .chat-channel-leave-btn {
+    background-color: #0061d5;
+    color: #fff;
+    padding: 0 10px;
+    height: 35px;
+}
+
+.direct-message-creator .results .user.is-focused {
+    background-color: #F4F4F4;
+}
+
+.chat-composer-dropdown__action-btn {
+    margin-bottom: 5px;
+}
+
+.direct-message-creator .selected-user .username {
+    color: #000;
+}
+
+.chat-message-actions .more-buttons.dropdown-select-box .select-kit-header .select-kit-header-wrapper .d-icon {
+    display: inline;
+}
+
+.select-kit.single-select.dropdown-select-box.is-expanded .select-kit-collection,
+.select-kit.single-select.dropdown-select-box.is-expanded .select-kit-body {
+    border-radius: 6px;
+}
+
+.select-kit.single-select.dropdown-select-box .select-kit-row {
+    border-radius: 6px;
+}
+
+.chat-message-actions .more-buttons.dropdown-select-box .select-kit-body {
+    padding: 1rem;
+}
+
+.modal-inner-container {
+    border-radius: 6px;
+}
+
+.bookmark-with-reminder.modal .modal-body .ember-text-field.bookmark-name {
+    border-radius: 6px;
+    min-height: 40px;
+}
+
+.dialog-content {
+    border-radius: 6px;
+}
+
+.chat-emoji-picker__filter.dc-filter-input-container {
+    border-radius: 6px;
+}
+
+.chat-channel-message-emoji-picker-connector .chat-emoji-picker {
+    border-radius: 6px;
+    padding: 10px;
+    left: -50px;
 }
