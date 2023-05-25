@@ -911,3 +911,42 @@ input[type=text] {
     border-radius: 6px;
     min-height: 40px;
 }
+
+
+.select-kit.is-expanded .select-kit-body {
+    padding: 10px;
+}
+
+.select-kit.combo-box.category-drop .select-kit-row {
+    margin-top: 5px;
+    border-radius: 6px;
+}
+
+.user-menu.revamped .quick-access-panel li.unread,
+.user-menu.revamped .quick-access-panel li.pending {
+    border-radius: 6px;
+    margin-top: 5px;
+    background-color: #F4F4F4 !important;
+}
+
+li.notification.read.private-message {
+    border-radius: 6px;
+    margin-top: 5px;
+}
+
+.user-menu.revamped .tabs-list .btn {
+    margin-bottom: 2px;
+}
+
+.menu-panel .panel-body-bottom .btn {
+    background-color: #0061d5;
+    color: #fff;
+}
+
+.menu-panel .panel-body-bottom .btn:hover {
+    background-color: #006AE9;
+}
+
+.user-menu.revamped .menu-tabs-container {
+    border-left: none;
+}
