@@ -1025,3 +1025,12 @@ li.notification.read.private-message {
 .hamburger-panel .revamped .sidebar-section-wrapper .sidebar-section-link.active {
     background-color: #F4F4F4;
 }
+
+.badge-wrapper.bullet .badge-category-parent-bg+.badge-category-bg {
+    width: 10px;
+    height: 10px;
+}
+
+.topic-list-data .badge-wrapper.bullet .badge-category-parent-bg {
+    display: none;
+}
