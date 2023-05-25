@@ -727,6 +727,7 @@ nav.post-controls .actions button.create .d-icon {
 .select-kit.single-select.dropdown-select-box.is-expanded .select-kit-collection,
 .select-kit.single-select.dropdown-select-box.is-expanded .select-kit-body {
     border-radius: 6px;
+    padding: 10px;
 }
 
 .select-kit.single-select.dropdown-select-box .select-kit-row {
@@ -816,4 +817,90 @@ nav.post-controls .actions button.create .d-icon {
 .btn-mini-toggle .d-icon {
     display: inline;
     color: #000 !important;
+}
+
+.discourse-reactions-actions.can-toggle-reaction .discourse-reactions-reaction-button .reaction-button,
+.discourse-reactions-actions.can-toggle-reaction .discourse-reactions-reaction-button {
+    border-radius: 6px;
+}
+
+nav.post-controls .actions button {
+    border-radius: 6px;
+}
+
+.select-kit-selected-name.selected-name {
+    color: #fff;
+}
+
+.topic-map .buttons .btn {
+    background-color: #0061d5;
+    border: none;
+}
+
+.topic-map .buttons .btn:hover {
+    background-color: #006AE9;
+}
+
+.topic-map section {
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.topic-map {
+    border-radius: 6px;
+}
+
+.map:first-of-type {
+    align-items: center;
+}
+
+.map:first-of-type .buttons .btn {
+    height: 40px;
+}
+
+#topic-title .edit-topic-title #edit-title {
+    min-height: 40px;
+    border-radius: 6px;
+}
+
+.new-user-wrapper .user-navigation .nav-pills {
+    padding: 10px;
+}
+
+.new-user-wrapper .user-navigation .nav-pills li a {
+    margin-right: 5px;
+}
+
+.select-kit.multi-select .select-kit-row {
+    border-radius: 6px;
+}
+
+.selected-content .btn.selected-choice-category .category-name {
+    color: #fff;
+}
+
+textarea {
+    border-radius: 6px;
+}
+
+button.toggle-channel-membership-button.-leave.btn-flat.btn-link.btn-small.chat-channel-card__leave-btn.btn.btn-text {
+    padding: 0 10px;
+}
+
+button.toggle-channel-membership-button.-leave.btn-flat.btn-link.btn-small.chat-channel-card__leave-btn.btn.btn-text:hover {
+    background-color: #006AE9;
+}
+
+.chat-form__section:last-child {
+    margin: 1.5rem 1rem;
+}
+
+.channel-members-view__search-input-container {
+    min-height: 40px;
+    border-radius: 6px;
+}
+
+input[type=text] {
+    border-radius: 6px;
+    min-height: 40px;
 }
