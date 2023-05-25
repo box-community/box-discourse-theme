@@ -545,6 +545,10 @@ tr[data-category-id="7"] td.category .subcategories .subcategory .badge-wrapper.
     padding: 10px;
 }
 
+.chat-drawer-header {
+    padding: 0.5rem;
+}
+
 #reply-control #reply-title,
 #reply-control .category-input .category-chooser .select-kit-header,
 #reply-control .mini-tag-chooser .select-kit-header,
@@ -596,7 +600,8 @@ button.btn.btn-flat.btn-text.btn-dismiss-all:hover {
     margin-left: 10px;
 }
 
-.chat-drawer-header__close-btn:focus, .chat-drawer-header__back-btn:focus,
+.chat-drawer-header__close-btn:focus,
+.chat-drawer-header__back-btn:focus,
 .chat-drawer-header__full-screen-btn:focus,
 .chat-drawer-header__thread-list-btn:focus,
 .chat-drawer-header__expand-btn:focus {
@@ -912,11 +917,10 @@ button.toggle-channel-membership-button.-leave.btn-flat.btn-link.btn-small.chat-
     border-radius: 6px;
 }
 
-input[type=text] {
+input[type=text], input[type=number] {
     border-radius: 6px;
     min-height: 40px;
 }
-
 
 .select-kit.is-expanded .select-kit-body {
     padding: 10px;
@@ -937,6 +941,11 @@ input[type=text] {
 li.notification.read.private-message {
     border-radius: 6px;
     margin-top: 10px;
+}
+
+.user-menu .quick-access-panel li {
+    border-radius: 6px;
+    margin-top: 5px;
 }
 
 .user-menu.revamped .tabs-list .btn {
@@ -1041,4 +1050,22 @@ li.notification.read.private-message {
 
 .badge-wrapper.bullet .badge-category-parent-bg {
     display: none;
+}
+
+.new-user-wrapper .user-navigation .nav-pills li a.active {
+    border: none;
+    background-color: #0061d5;
+    color: #fff;
+    padding: 0;
+}
+
+.new-user-wrapper .user-navigation .nav-pills li a {
+    background: #f4f4f4;
+    color: #222;
+}
+
+.new-user-wrapper .user-navigation .nav-pills li a:hover,
+.new-user-wrapper .user-navigation .nav-pills li a:focus {
+    background: #fbfbfb;
+    color: #222;
 }
