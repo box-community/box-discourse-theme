@@ -153,7 +153,8 @@ display: none;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 5px;
+    padding-top: 6px;
+    padding-bottom: 4px;
     line-height:14px;
     gap: 8px;
     vertical-align: center;
@@ -171,6 +172,10 @@ display: none;
     
     box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 6px;
+}
+
+.search-menu .searching {
+    top: 0.75em;
 }
 
 .search-menu .results {
@@ -195,7 +200,6 @@ display: none;
     background: #EAF0FD;
     text-align: center;
     margin-right: 5px;
-    
     font-weight: 400;
     font-size: 12px;
     color: #6F6F6F;
@@ -293,7 +297,8 @@ display: none;
     transition: background-color 200ms ease-in-out;
 }
 
-.btn:hover {
+.discourse-no-touch .btn:hover,
+.discourse-no-touch .btn.btn-hover {
     background-color: #006AE9;
 }
 
@@ -319,6 +324,11 @@ display: none;
 .consent_banner.alert.alert-info .btn-link.btn-text .d-button-label {
     color: #222222 !important;
     font-weight: 700;
+}
+
+.discourse-no-touch .btn-link:hover {
+    color: #fff;
+    background: #006AE9;
 }
 
 .d-button-label {
@@ -386,6 +396,10 @@ table thead tr th {
 .subcategory .badge-wrapper.bullet .badge-category {
     border-radius: 47px;
     padding: 2px 8px;
+}
+
+.category-list .subcategories .badge-wrapper {
+    margin-right: 0;
 }
 
 .badge-wrapper .badge-category .category-name {
@@ -505,6 +519,12 @@ tr[data-category-id="7"] td.category .subcategories .subcategory .badge-wrapper.
     display: block;
 }
 
+.chat-drawer-header__top-line .btn-flat .d-icon {
+    display: inline;
+    color: #fff;
+    margin-left: 10px;
+}
+
 #reply-control #reply-title,
 #reply-control .category-input .category-chooser .select-kit-header,
 #reply-control .mini-tag-chooser .select-kit-header,
@@ -536,4 +556,17 @@ button.btn.btn-flat.btn-text.btn-dismiss-all:hover {
 .discourse-no-touch .d-header-icons .icon:hover>.d-icon,
 .discourse-no-touch .d-header-icons .icon:focus>.d-icon {
     color: #fff;
+}
+
+.drop-down-mode .d-header-icons .active .icon {
+    background: transparent;
+    border: transparent;
+}
+
+.drop-down-mode .d-header-icons .active .icon>.d-icon {
+    color: #fff;
+}
+
+.drop-down-mode .d-header-icons .active .icon:after {
+    display: none;
 }
