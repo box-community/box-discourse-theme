@@ -1003,3 +1003,25 @@ li.notification.read.private-message {
 .user-menu.revamped #quick-access-profile li {
     margin-top: 5px;
 }
+
+.hamburger-panel .revamped .sidebar-section-wrapper .sidebar-section-header-button {
+    border-radius: 6px;
+    padding: 5px;
+}
+
+.hamburger-panel .revamped .sidebar-section-wrapper .sidebar-section-header-button:hover {
+    background-color:  #006AE9;
+}
+
+.hamburger-panel .revamped .sidebar-section-wrapper.sidebar-section ul li:last-child:after {
+    border-bottom: 1px solid #cccccc;
+    content: '';
+    width: 90%;
+    position: absolute;
+    bottom: -15px;
+    left: 10px;
+}
+
+.hamburger-panel .revamped .sidebar-section-wrapper .sidebar-section-link.active {
+    background-color: #F4F4F4;
+}
