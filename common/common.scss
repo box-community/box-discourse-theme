@@ -325,6 +325,10 @@ display: none;
     color: #FFFFFF;
 }
 
+svg.fa.d-icon.d-icon-times.svg-icon.svg-string {
+    display:block;
+}
+
 .consent_banner.alert.alert-info .btn-link.btn-text .d-button-label {
     color: #222222 !important;
     font-weight: 700;
@@ -484,7 +488,9 @@ tr[data-category-id="7"] td.category .subcategories .subcategory .badge-wrapper.
     margin-right: 10px;
 }
 
-// Create/Reply to Post dialog box
+/* 
+    Create/Reply to Post dialog box
+*/
 #reply-control .reply-to .composer-controls .d-icon:not(.d-icon-discourse-expand)
 :not(.d-icon-chevron-down)
 :not(.d-icon-angle-double-left) {
