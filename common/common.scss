@@ -153,8 +153,6 @@ display: none;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding-top: 6px;
-    padding-bottom: 4px;
     line-height:14px;
     gap: 8px;
     vertical-align: center;
@@ -172,6 +170,11 @@ display: none;
     
     box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 6px;
+}
+
+#search-term {
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 
 .search-menu .searching {
@@ -653,4 +656,29 @@ svg.fa.d-icon.d-icon-times.svg-icon.svg-string {
 
 nav.post-controls .actions button.create .d-icon {
     color: #fff;
+}
+
+.chat-channel-title {
+    padding-left: 10px;
+}
+
+.search-header {
+    border-radius: 6px;
+    box-shadow: 0 4px 10px rgba(0,0,0,.1);
+    border: 1px solid #e8e8e8;
+}
+
+@media screen and (max-width: 850px) {
+    .search-container .search-header {
+        padding: 2rem;
+    }
+}
+
+.select-kit .select-kit-header:not(.btn) {
+    border-radius: 6px;
+    min-height: 40px;
+}
+
+.search-container .search-bar input.search-query {
+    border-radius: 6px;
 }
