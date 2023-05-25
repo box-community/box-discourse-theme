@@ -522,7 +522,6 @@ tr[data-category-id="7"] td.category .subcategories .subcategory .badge-wrapper.
 .chat-drawer-header__top-line .btn-flat .d-icon {
     display: inline;
     color: #fff;
-    margin-left: 10px;
 }
 
 #reply-control #reply-title,
@@ -569,4 +568,89 @@ button.btn.btn-flat.btn-text.btn-dismiss-all:hover {
 
 .drop-down-mode .d-header-icons .active .icon:after {
     display: none;
+}
+
+.chat-drawer-header__full-screen-btn,
+.chat-drawer-header__close-btn {
+    margin-left: 10px;
+}
+
+.chat-drawer-header__close-btn:focus, .chat-drawer-header__back-btn:focus,
+.chat-drawer-header__full-screen-btn:focus,
+.chat-drawer-header__thread-list-btn:focus,
+.chat-drawer-header__expand-btn:focus {
+    background: var(--tertiary);
+}
+
+.chat-retention-reminder .btn .d-icon {
+    display: inline;
+}
+
+svg.fa.d-icon.d-icon-times.svg-icon.svg-string {
+    color: #fff;
+}
+
+.btn-flat.btn-text:not([disabled]):hover,
+.btn-text.json-editor-btn-collapse:not([disabled]):hover,
+.btn-flat.btn-text:not([disabled]).btn-hover,
+.btn-text.json-editor-btn-collapse:not([disabled]).btn-hover,
+.btn-flat.btn-text:not([disabled]):focus,
+.btn-text.json-editor-btn-collapse:not([disabled]):focus {
+    color: #fff;
+}
+
+.chat-retention-reminder {
+    border-radius: 6px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.chat-retention-reminder .btn-flat.dismiss-btn {
+    padding: 0 8px;
+    height: 30px;
+}
+
+.chat-retention-reminder .btn-flat.dismiss-btn:hover,
+.chat-retention-reminder .btn-flat.dismiss-btn:focus {
+    background-color: #006AE9;
+}
+
+.chat-channel-row {
+    border-radius: 6px;
+    transition: background-color 200ms ease-in-out;
+}
+
+.chat-drawer-container .channels-list .chat-channel-row {
+    margin: 0.5rem 0.5rem 0 0.5rem;
+}
+
+.create-invite-modal .modal-inner-container,
+.create-invite-bulk-modal .modal-inner-container,
+.share-topic-modal .modal-inner-container {
+    border-radius: 6px;
+}
+
+#topic-progress {
+    border: none;
+}
+
+#topic-progress .bg {
+    background-color: transparent;
+}
+
+.topic-navigation {
+    margin-top: 10px;
+}
+
+.button.widget-button.btn-flat.reply {
+    border-radius: 6px;
+    background-color: #0061d5;
+}
+
+.button.widget-button.btn-flat.reply:hover {
+    background-color: #006AE9;
+}
+
+nav.post-controls .actions button.create .d-icon {
+    color: #fff;
 }
