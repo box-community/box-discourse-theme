@@ -26,8 +26,7 @@ p {
 .d-header {
     background-color: #0061d5;
     color: #fff;
-    height: 60px;
-    line-height: 60px;
+    height: 1.5;
     vertical-align: middle;
     margin: 0;
     padding: 0;
@@ -939,7 +938,7 @@ input[type=text] {
 
 li.notification.read.private-message {
     border-radius: 6px;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .user-menu.revamped .tabs-list .btn {
@@ -953,8 +952,13 @@ li.notification.read.private-message {
 
 .menu-panel .panel-body-bottom .btn:hover {
     background-color: #006AE9;
+    color: #fff;
 }
 
 .user-menu.revamped .menu-tabs-container {
     border-left: none;
+}
+
+.user-menu.revamped .tabs-list .btn:hover {
+    background-color: #006AE9;
 }
