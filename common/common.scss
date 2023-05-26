@@ -1080,3 +1080,8 @@ li.notification.read.private-message {
 .nav-pills.action-list .d-icon {
     display: none;
 }
+
+.category .header-title .topic-link,
+.category .extra-info-wrapper .categories-wrapper {
+    display: none;
+}
