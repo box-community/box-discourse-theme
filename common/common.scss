@@ -143,6 +143,11 @@ display: none;
     display: none;
 }
 
+.search-menu .menu-panel.drop-down {
+    width: auto;
+    height: auto;
+}
+
 .search-menu .menu-panel.drop-down .panel-body {
     width:100%;
 }
@@ -154,7 +159,7 @@ display: none;
     line-height:14px;
     gap: 8px;
     vertical-align: center;
-    width: 458px;
+    width: auto;
     height: 40px;
     margin-bottom: 29px;
     
@@ -185,8 +190,7 @@ display: none;
     flex-direction: row;
     align-items: flex-start;
     vertical-align: center;
-    width: 468px;
-    height: 36px;
+    width: auto;
 }
 
 .search-menu .search-random-quick-tip {
