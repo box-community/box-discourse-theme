@@ -185,6 +185,10 @@ display: none;
     top: 0.75em;
 }
 
+.menu-panel ul.search-menu-initial-options {
+    width: 99%;
+}
+
 .search-menu .results {
     display: flex;
     flex-direction: row;
@@ -229,8 +233,6 @@ display: none;
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
-
-
 
 .menu-panel .panel-body {
     width: 100%;
