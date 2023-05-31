@@ -42,6 +42,188 @@ p {
     padding: 0;
 }
 
+// Menu, custom header, banner styles
+
+#top-menu {
+    position: fixed;
+    z-index: 1200;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10px;
+    background: transparent;
+    width: auto;
+}
+
+.top-menu .menu-item {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #B2CFF2;
+    transition: color 300ms ease-in-out;
+    cursor: pointer !important;
+    padding: 0 16px;
+}
+
+.top-menu .menu-item:hover {
+    background: transparent;
+    color: #FFFFFF;
+}
+
+.top-menu .menu-item:hover .d-header-dropdown {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+    width: 320px;
+    height: auto;
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.top-menu .menu-item.community:hover .d-header-dropdown {
+    display:none;
+}
+
+.top-menu .community {
+    color: #fff;
+}
+
+.top-menu .d-dropdown-menu {
+    min-width:unset;
+    box-shadow:unset;
+    width:100%;
+}
+
+.top-menu .submenu-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #222222;
+    margin-bottom: 14px;
+    border-radius: 6px;
+    transition: background-color 300ms ease-in-out;
+}
+
+.top-menu .submenu-link:hover {
+    background-color: #f5f6f8;
+}
+
+.top-menu .submenu-link[title="DevDocs Header"],
+.top-menu .submenu-link[title="AddRes Header"] {
+    font-weight: 700;
+}
+
+.top-menu .submenu-link[title="DevDocs Header"]:hover,
+.top-menu .submenu-link[title="AddRes Header"]:hover {
+    background-color: #FFFFFF;
+    cursor:default;
+}
+
+.top-menu .submenu-link[title="AddRes Header"] {
+    margin-top:30px;
+}
+
+.d-header .wrap .contents {
+    width: 95vw;
+    position: relative;
+    left: calc(-50vw + 50%);
+    padding: 0 24px;
+}
+
+.custom-header-links .top-level-links {
+    position: relative;
+    left: calc(50vw - 100%);
+}
+
+.custom-header-links .top-level-links .custom-header-link,
+.custom-header-links .top-level-links .custom-header-link-with-url {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.custom-header-links .top-level-links .custom-header-link:hover,
+.custom-header-links .top-level-links .custom-header-link-with-url:hover {
+    color: #FFFFFF;
+} 
+
+.search-menu .menu-panel.drop-down,
+.custom-header-links .top-level-links .custom-header-dropdown {
+    width: 500px;
+    height: auto;
+    filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.1));
+}
+
+.custom-header-links .top-level-links .custom-header-dropdown li {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #222222;
+}
+
+.custom-header-links .top-level-links .custom-header-dropdown li[title="Documentation"],
+.custom-header-links .top-level-links .custom-header-dropdown li[title="Additional Resources"] {
+    font-weight: 700;
+}
+
+.custom-header-links .top-level-links .custom-header-dropdown li[title="Additional Resources"] {
+    margin-top: 25px;
+}
+
+#main .banner-box {
+    margin-top:62px;
+}
+
+.banner-box .row {
+    padding-top: 20px;
+}
+
+.banner-box .row .single-box,
+.banner-box h1 {
+    font-family: lato;
+    text-align: left;
+    vertical-align:center;
+}
+
+.banner-box .row .single-box .icon {
+    text-align: right !important
+}
+
+.banner-box .row .single-box .icon .responsive-img {
+    background: url($bubble-bg);
+}
+
+.alert .close {
+    top: -1px;
+}
+
+.alert .close .d-icon {
+    color:#222222;
+    display:block;
+}
+
+.list-controls .combo-box .combo-box-header {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 12px;
+    gap: 8px;
+    width: 137px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #BCBCBC;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+}
+
+// End menu, custom header, banner styles
+
 .d-header-icons .d-icon {
     height: 24px;
     width: 24px;
@@ -62,36 +244,22 @@ p {
 
 .login-button {
     box-sizing: border-box;
-
-    /* Auto layout */
-    
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 0px 16px;
     gap: 8px;
-    
     width: 89px;
     height: 32px;
     right: 56px;
     top: 14px;
-    
-    /* Gray/White */
-    
     border: 1px solid #FFFFFF;
     border-radius: 6px;
-    
-    
     font-weight: 700;
     font-size: 14px;
-    line-height: 20px;
-    /* identical to box height, or 143% */
-    
-    text-align: center;
-    
-    /* Gray/White */
-    
+    line-height: 20px;    
+    text-align: center;    
     color: #FFFFFF;
 }
 
@@ -157,15 +325,8 @@ display: none;
     width: 458px;
     height: 40px;
     margin-bottom: 29px;
-    
-    /* Gray/White */
-    
     background: #FFFFFF;
-    /* Light Blue/100 */
-    
-    border: 2px solid #2486FC;
-    /* Inner Shadow/Text Input */
-    
+    border: 2px solid #2486FC;    
     box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 6px;
 }
@@ -226,8 +387,6 @@ display: none;
     border-radius: 8px;
 }
 
-
-
 .menu-panel .panel-body {
     width: 100%;
 }
@@ -271,7 +430,6 @@ display: none;
 }
 
 .nav-pills li a {
-    //width: 103px;
     height: 32px;
     text-align:center;
     background: #F4F4F4;
@@ -1084,4 +1242,20 @@ li.notification.read.private-message {
 .category .header-title .topic-link,
 .category .extra-info-wrapper .categories-wrapper {
     display: none;
+}
+
+.select-kit-header-wrapper .select-kit-selected-name {
+    color: #fff !important;
+}
+
+.select-kit-header-wrapper .select-kit-selected-name .name {
+    margin-left: 0 !important;
+}
+
+.user-card-badge-link .user-badge {
+    border-radius: 6px;
+}
+
+.badge-section .more-user-badges .ember-view {
+    border-radius: 6px;
 }
