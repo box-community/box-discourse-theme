@@ -338,7 +338,7 @@ display: none;
 }
 
 #search-term {
-    padding-top: 10px;
+    padding-top: 6px;
     padding-bottom: 4px;
     background: transparent;
 }
@@ -1277,9 +1277,12 @@ li.notification.read.private-message {
     border-radius: 6px;
 }
 
-.widget-dropdown-item:hover {
-    background-color: #f5f5f5;
+.widget-dropdown .widget-dropdown-item {
     border-radius: 6px;
+}
+
+.widget-dropdown .widget-dropdown-item:hover {
+    background-color: #f5f5f5;
 }
 
 .event-date .month {
@@ -1309,4 +1312,51 @@ li.notification.read.private-message {
 
 section.tag-info {
     border-radius: 6px;
+}
+
+.tap-tile-grid .tap-tile {
+   border-radius: 6px;
+   margin: 4px 0;
+   transition: background-color 200ms ease-in-out;
+}
+
+.tap-tile-grid .tap-tile:hover {
+    background-color: #f5f5f5;
+}
+
+.select-kit.combo-box .select-kit-row {
+    border-radius: 6px;
+}
+
+button.btn-link.posts-map.badge-posts:hover {
+    background: transparent;
+    color: black;
+}
+
+#topic-entrance {
+    border-radius: 6px;
+}
+
+.post-controls .widget-button.reply {
+    background-color: #0061d5;
+}
+
+.post-controls .widget-button.reply:hover {
+    background-color: #006AE9;
+}
+
+#topic-footer-buttons .select-kit-header-wrapper .name {
+    color: #fff;
+    margin-left: 0;
+}
+
+.badge-card .favorite-btn {
+    width: 30px;
+    right: 5px;
+    bottom: 5px;
+    height: 30px;
+}
+
+.new-user-wrapper .user-navigation .nav-pills li:hover span {
+    color: #fff;
 }
