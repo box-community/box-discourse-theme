@@ -448,6 +448,7 @@ display: none;
 
 .nav-pills li a.active {
     background: #0061D5;
+    color: #fff;
 }
 
 .nav-pills>li>a:hover:not(.active),
@@ -1373,4 +1374,30 @@ button.btn-link.posts-map.badge-posts:hover {
 
 .sidebar-section-wrapper .sidebar-section-header.sidebar-section-header-collapsable {
     height: 30px;
+}
+
+.category-list-item.category {
+    border-radius: 6px;
+}
+
+.list-controls .nav-pills .drop li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (max-width: 900px) {
+    #main-outlet {
+        padding-top: 3.25em;
+    }
+}
+
+#navigation-bar .toggle-link {
+    background-color: transparent;
+    margin-top: 3px;
+}
+
+.drop {
+    border-radius: 6px;
 }
