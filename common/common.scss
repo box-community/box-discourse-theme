@@ -45,23 +45,13 @@ p {
 // Menu, custom header, banner styles
 
 #top-menu {
-    background: #0061d5;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-@media (max-width: 700px) {
-    #top-menu {
-        position: fixed;
-        z-index: 1200;
-        left: 50%;
-        transform: translateX(-50%);
-        top: 10px;
-        background: transparent;
-        width: auto;
-    }
+    position: fixed;
+    z-index: 1200;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10px;
+    background: transparent;
+    width: auto;
 }
 
 .top-menu .menu-item {
