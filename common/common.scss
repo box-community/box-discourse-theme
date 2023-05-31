@@ -1,7 +1,7 @@
 @font-face {
     font-family: lato;
     src: url($lato) format('woff2')
-  }
+}
 
 body {
     font-family: lato;
@@ -74,13 +74,14 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 12px;
+    padding: 25px;
     width: 320px;
     height: auto;
     background: #FFFFFF;
     border: 1px solid #E8E8E8;
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    border-radius: 6px;
+    left: -50%;
 }
 
 .top-menu .menu-item.community:hover .d-header-dropdown {
@@ -1249,5 +1250,55 @@ li.notification.read.private-message {
 }
 
 .badge-section .more-user-badges span {
+    border-radius: 6px;
+}
+
+.leaderboard .user {
+    border-radius: 6px;
+}
+
+.leaderboard .podium__wrapper {
+    border-radius: 6px;
+}
+
+.leaderboard .user__rank {
+    font-family: 'lato';
+}
+
+.widget-dropdown-body {
+    border-radius: 6px;
+}
+
+.widget-dropdown-item:hover {
+    background-color: #f5f5f5;
+    border-radius: 6px;
+}
+
+.event-date .month {
+    color: #0061D5;
+}
+
+.discourse-post-event-widget {
+    border-radius: 6px;
+}
+
+#upcoming-events-calendar.fc-unthemed .fc-today-button {
+    border-radius: 6px;
+    color: #fff;
+    background-color: #0061D5;
+}
+
+#upcoming-events-calendar.fc-unthemed .fc-today-button:hover {
+    color: #fff;
+    background-color: #006AE9;
+}
+
+#upcoming-events-calendar.fc-unthemed .fc-button-group .fc-button {
+    border-radius: 6px;
+    margin-right: 3px;
+    transition: background-color 200ms ease-in-out;
+}
+
+section.tag-info {
     border-radius: 6px;
 }
