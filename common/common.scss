@@ -45,13 +45,23 @@ p {
 // Menu, custom header, banner styles
 
 #top-menu {
-    position: fixed;
-    z-index: 1200;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 10px;
-    background: transparent;
-    width: auto;
+    background: #0061d5;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 700px) {
+    #top-menu {
+        position: fixed;
+        z-index: 1200;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 10px;
+        background: transparent;
+        width: auto;
+    }
 }
 
 .top-menu .menu-item {
@@ -1355,4 +1365,13 @@ button.btn-link.posts-map.badge-posts:hover {
 
 .new-user-wrapper .user-navigation .nav-pills li:hover a {
     background-color: #006AE9;
+}
+
+.sidebar-section-wrapper .sidebar-section-header.sidebar-section-header-collapsable .sidebar-section-header-text {
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.sidebar-section-wrapper .sidebar-section-header.sidebar-section-header-collapsable {
+    height: 30px;
 }
