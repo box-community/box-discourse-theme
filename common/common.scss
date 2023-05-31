@@ -773,10 +773,6 @@ button.btn.btn-flat.btn-text.btn-dismiss-all:hover {
     display: inline;
 }
 
-svg.fa.d-icon.d-icon-times.svg-icon.svg-string {
-    color: #fff;
-}
-
 .btn-flat.btn-text:not([disabled]):hover,
 .btn-text.json-editor-btn-collapse:not([disabled]):hover,
 .btn-flat.btn-text:not([disabled]).btn-hover,
@@ -815,6 +811,7 @@ svg.fa.d-icon.d-icon-times.svg-icon.svg-string {
 .create-invite-bulk-modal .modal-inner-container,
 .share-topic-modal .modal-inner-container {
     border-radius: 6px;
+    padding: 5px;
 }
 
 #topic-progress {
@@ -1078,7 +1075,9 @@ button.toggle-channel-membership-button.-leave.btn-flat.btn-link.btn-small.chat-
     border-radius: 6px;
 }
 
-input[type=text], input[type=number] {
+input[type=text],
+input[type=number],
+input[type=email] {
     border-radius: 6px;
     min-height: 40px;
 }
@@ -1392,4 +1391,8 @@ button.btn-link.posts-map.badge-posts:hover {
 
 .drop {
     border-radius: 6px;
+}
+
+.activate-account {
+    margin-top: 50px;
 }
