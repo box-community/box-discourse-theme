@@ -1,0 +1,237 @@
+// Colors
+
+// Blue
+$color-box-blue: #0061D5;
+$color-blue-hover: #1D6BCA;
+$color-box-blue-10: #E5EFFA;  // General sub-categories
+$color-box-blue-02: #FAFCFE;
+
+$color-dark-blue-10: #E5EBF2;
+
+$color-light-blue: #2486FC;
+$color-light-blue-10: #E9F2FE;
+
+
+// purple
+$color-purple-rain-10: #7F32BE;
+$color-blue-purple-10: #ECE9F8;
+$color-bright-purple-10: #F5EBFD;  // SDKs and Tools sub-categories
+
+
+// red, orange, yellow
+$color-red-10: #FDEBEE;
+$color-light-green-10: #E9F8F2;  // Feedback sub-categories
+$color-orange-10: #FDF2E8;
+$color-yellow-orange-10: #FEF7E8;
+$color-yellow-10: #FFFBE5;  // Product API sub-categories
+
+// gray
+$color-box-gray: #222222;
+$color-box-gray-80: #4E4E4E;
+$color-box-gray-30: #BCBCBC;
+$color-box-gray-10: #E8E8E8;  // Platform sub-categories
+$color-box-gray-05: #F4F4F4;
+$color-box-gray-02: #FBFBFB;
+$color-grippie-gray: #000C1A;
+
+// black and white
+$color-white: #FFFFFF;
+$color-black: #000000;
+
+#top-menu {
+    position: fixed;
+    z-index: 1200;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10px;
+    background: transparent;
+    width: auto;
+}
+
+.top-menu .menu-item {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: $color-box-gray-10;
+    transition: color 300ms ease-in-out;
+    cursor: pointer !important;
+    padding: 0 16px;
+}
+
+.top-menu .menu-item:hover {
+    background: transparent;
+    color: $color-white;
+}
+
+.top-menu .menu-item:hover .d-header-dropdown {
+    /* MenuBlock */
+    box-sizing: border-box;
+    
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+    
+    width: 320px;
+    height: auto;
+    
+    /* Gray/White */
+    background: $color-white;
+    
+    /* Gray/10 */
+    border: 1px solid $color-box-gray-10;
+    
+    /* Drop Shadow/Dropdown */
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.top-menu .menu-item.community:hover .d-header-dropdown {
+    display:none;
+}
+
+.top-menu .community {
+    color: $color-white;
+}
+
+.top-menu .d-dropdown-menu {
+    min-width:unset;
+    box-shadow:unset;
+    width:100%;
+}
+
+.top-menu .submenu-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: $color-box-gray;
+    margin-bottom: 14px;
+    border-radius: 6px;
+    transition: background-color 300ms ease-in-out;
+}
+
+.top-menu .submenu-link:hover {
+    background-color: $color-box-gray-05;
+}
+
+.top-menu .submenu-link[title="DevDocs Header"],
+.top-menu .submenu-link[title="AddRes Header"] {
+    font-weight: 700;
+}
+
+.top-menu .submenu-link[title="DevDocs Header"]:hover,
+.top-menu .submenu-link[title="AddRes Header"]:hover {
+    background-color: $color-white;
+    cursor:default;
+}
+
+.top-menu .submenu-link[title="AddRes Header"] {
+    margin-top:30px;
+}
+
+.d-header .wrap .contents {
+    width: 95vw;
+    position: relative;
+    left: calc(-50vw + 50%);
+    padding: 0 24px;
+}
+
+.custom-header-links .top-level-links {
+    position: relative;
+    left: calc(50vw - 100%);
+}
+
+.custom-header-links .top-level-links .custom-header-link,
+.custom-header-links .top-level-links .custom-header-link-with-url {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    
+    /* Text on Dark/Default */
+    
+    color: $color-white;
+}
+
+.custom-header-links .top-level-links .custom-header-link:hover,
+.custom-header-links .top-level-links .custom-header-link-with-url:hover {
+    color: $color-white;
+} 
+
+//.custom-header-links .top-level-links .custom-header-link .custom-header-link-caret {
+//    display: none;
+//}
+
+.search-menu .menu-panel.drop-down,
+.custom-header-links .top-level-links .custom-header-dropdown {
+    width: 500px;
+    height: auto;
+    filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.1));
+}
+
+.custom-header-links .top-level-links .custom-header-dropdown li {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    
+    /* Text on Light/Default */
+    
+    color: $color-box-gray;
+}
+
+.custom-header-links .top-level-links .custom-header-dropdown li[title="Documentation"],
+.custom-header-links .top-level-links .custom-header-dropdown li[title="Additional Resources"] {
+    font-weight: 700;
+}
+
+.custom-header-links .top-level-links .custom-header-dropdown li[title="Additional Resources"] {
+    margin-top: 25px;
+}
+
+#main .banner-box {
+    margin-top:62px;
+}
+
+.banner-box .row {
+    padding-top: 20px;
+}
+
+.banner-box .row .single-box,
+.banner-box h1 {
+    font-family: lato;
+    text-align: left;
+    vertical-align:center;
+}
+
+.banner-box .row .single-box .icon {
+    text-align: right !important
+}
+
+.banner-box .row .single-box .icon .responsive-img {
+    background: url($bubble-bg);
+}
+
+.alert .close {
+    top: -1px;
+}
+
+.alert .close .d-icon {
+    color:$color-box-gray;
+    display:block;
+}
+
+.list-controls .combo-box .combo-box-header {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 12px;
+    gap: 8px;
+    width: 137px;
+    height: 40px;
+    background: $color-white;
+    border: 1px solid $color-box-gray-30;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+}
