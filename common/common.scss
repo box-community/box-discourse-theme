@@ -35,6 +35,7 @@ p {
     font-size: 16px;
     position: fixed;
     top: 0;
+    height: 60px;
 }
 
 #site-logo {
@@ -1407,4 +1408,34 @@ pre code {
 
 .popup-tip {
     border-radius: 6px;
+}
+
+#main-outlet-wrapper {
+    margin-bottom: 90px;
+}
+
+// Change menu search icon
+
+.header-dropdown-toggle.search-dropdown {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA0OCA0OCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDggNDgiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxzdHlsZT4uc3Qwe2ZpbGw6bm9uZTtzdHJva2U6I2ZmZjtzdHJva2Utd2lkdGg6NDtzdHJva2UtbGluZWNhcDpyb3VuZDtzdHJva2UtbGluZWpvaW46cm91bmQ7c3Ryb2tlLW1pdGVybGltaXQ6Mn08L3N0eWxlPjxjaXJjbGUgY2xhc3M9InN0MCIgY3g9IjIyIiBjeT0iMjIiIHI9IjE2Ii8+PHBhdGggY2xhc3M9InN0MCIgZD0ibTQyIDQyLTguNy04LjciLz48L3N2Zz4=);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 24px;
+}
+
+.header-dropdown-toggle.search-dropdown .d-icon {
+    display: none;
+}
+
+// Change menu hamburger icon
+
+.header-dropdown-toggle.hamburger-dropdown {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCA5NiA3MiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgOTYgNzIiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxzdHlsZT4uc3Qwe2ZpbGw6I2ZmZjtzdHJva2U6I2ZmZjtzdHJva2Utd2lkdGg6NTtzdHJva2UtbWl0ZXJsaW1pdDoxMH08L3N0eWxlPjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik00LjggMzQuMmMtLjUgMC0uOS4yLTEuMy41LS4zLjQtLjUuOC0uNSAxLjNzLjIuOS41IDEuM2MuMy4zLjguNSAxLjMuNWg4Ni40Yy41IDAgLjktLjIgMS4zLS41LjMtLjMuNS0uOC41LTEuM3MtLjItLjktLjUtMS4zYy0uMy0uMy0uOC0uNS0xLjMtLjVINC44ek05MS4yIDljLjUgMCAuOS0uMiAxLjMtLjUuMy0uNC41LS44LjUtMS4zcy0uMi0uOS0uNS0xLjMtLjgtLjUtMS4zLS41SDQuOGMtLjUgMC0uOS4yLTEuMy41LS4zLjQtLjUuOC0uNSAxLjNzLjIuOS41IDEuM2MuNC4zLjguNSAxLjMuNWg4Ni40ek00LjggNjNjLS41IDAtLjkuMi0xLjMuNS0uMy40LS41LjgtLjUgMS4zcy4yLjkuNSAxLjNjLjMuMy44LjUgMS4zLjVoODYuNGMuNSAwIC45LS4yIDEuMy0uNS4zLS4zLjUtLjguNS0xLjNzLS4yLS45LS41LTEuM2MtLjMtLjMtLjgtLjUtMS4zLS41SDQuOHoiLz48L3N2Zz4=);
+}
+
+.header-dropdown-toggle.hamburger-dropdown .d-icon {
+    display: none;
 }
