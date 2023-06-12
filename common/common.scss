@@ -1011,6 +1011,7 @@ nav.post-controls .actions button.create .d-icon {
 
 .modal-inner-container {
     border-radius: 6px;
+    padding: 5px;
 }
 
 .bookmark-with-reminder.modal .modal-body .ember-text-field.bookmark-name {
@@ -1534,6 +1535,8 @@ pre code {
 #search-button,
 #search-button:hover,
 #toggle-hamburger-menu,
-#toggle-hamburger-menu:hover {
+#toggle-hamburger-menu:hover,
+#current-user .icon,
+#current-user .icon:hover {
     border: none
 }
