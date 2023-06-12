@@ -218,7 +218,7 @@ p {
 }
 
 #main .banner-box {
-    margin-top:62px;
+    margin-top:60px;
 }
 
 .banner-box .row {
@@ -1529,4 +1529,11 @@ pre code {
 
 .header-dropdown-toggle.hamburger-dropdown .d-icon {
     display: none;
+}
+
+#search-button,
+#search-button:hover,
+#toggle-hamburger-menu,
+#toggle-hamburger-menu:hover {
+    border: none
 }
