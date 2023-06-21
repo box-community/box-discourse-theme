@@ -1549,7 +1549,7 @@ pre code {
     margin: 40px 0 40px 0;
 }
 
-.category-title-header {
+.category-header div[class^="category-title-header"] {
     width: 100vw;
     position: relative;
     margin-left: -50vw;
