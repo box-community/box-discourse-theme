@@ -1564,10 +1564,6 @@ pre code {
     flex-direction: column;
     border-left: none !important;
     border: none;
-
-    @media (max-width: 900px) {
-        margin-top: 37px;
-    }
 }
 
 .category-header div[class^="category-title-header"] .category-title-contents {
