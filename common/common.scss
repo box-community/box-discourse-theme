@@ -1546,7 +1546,7 @@ pre code {
 }
 
 .page-not-found {
-    margin: 40px 0 40px 0;
+    margin: 80px 0 40px 0;
 }
 
 // Category banner styles
@@ -1557,12 +1557,17 @@ pre code {
     margin-left: -50vw;
     left: 51%;
     background-color: $color-box-blue-10 !important;
-    margin-top: 23px;
+    margin-top: 37px;
+    margin-bottom: 24px;
     min-height: 180px;
     display: flex;
     flex-direction: column;
     border-left: none !important;
     border: none;
+
+    @media (max-width: 900px) {
+        margin-top: 37px;
+    }
 }
 
 .category-header div[class^="category-title-header"] .category-title-contents {
@@ -1579,4 +1584,14 @@ pre code {
 
 .category-header div[class^="category-title-header"] .category-title-description {
     padding-top: 1em;
+}
+
+.sidebar-footer-wrapper .sidebar-footer-actions-button.btn {
+    background-color: $color-box-blue;
+    width: 35px;
+}
+
+.hamburger-panel .revamped .sidebar-footer-wrapper {
+    margin-top: 0;
+    padding: 0 10px;
 }
