@@ -1549,6 +1549,8 @@ pre code {
     margin: 40px 0 40px 0;
 }
 
+// Category banner styles
+
 .category-header div[class^="category-title-header"] {
     width: 100vw;
     position: relative;
@@ -1571,4 +1573,8 @@ pre code {
 
 .category-header-widget .category-logo.aspect-image, .category-header-widget .category-logo.aspect-image>img {
     margin: 0;
+}
+
+.category-header div[class^="category-title-header"] .category-title-description {
+    padding-top: 1em;
 }
