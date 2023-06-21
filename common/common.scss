@@ -28,6 +28,7 @@ $color-yellow-10: #FFFBE5;  // Product API sub-categories ID=7
 // gray
 $color-box-gray: #222222;
 $color-box-gray-80: #4E4E4E;
+$color-box-gray-60: #6F6F6F;
 $color-box-gray-30: #BCBCBC;
 $color-box-gray-10: #E8E8E8;  // Platform sub-categories ID=6
 $color-box-gray-05: #F4F4F4;
@@ -63,7 +64,8 @@ p {
     color: $color-box-gray;
 }
 
-table th {
+table th,
+.topic-list td {
     color: $color-box-gray;
 }
 
@@ -1594,4 +1596,17 @@ pre code {
 .hamburger-panel .revamped .sidebar-footer-wrapper {
     margin-top: 0;
     padding: 0 10px;
+}
+
+.search-menu .searching a.show-advanced-search .d-icon,
+.search-menu .searching a.clear-search .d-icon {
+    color: $color-box-gray-60;
+}
+
+.search-menu .no-results {
+    color: $color-box-gray;
+}
+
+.topic-list .topic-list-data:first-of-type {
+    padding-left: 0;
 }
