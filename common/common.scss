@@ -1555,12 +1555,14 @@ pre code {
     width: 100vw;
     position: relative;
     margin-left: -50vw;
-    left: 50%;
+    left: 51%;
     background-color: $color-box-blue-10 !important;
     margin-top: 23px;
     min-height: 180px;
     display: flex;
     flex-direction: column;
+    border-left: none !important;
+    border: none;
 }
 
 .category-header div[class^="category-title-header"] .category-title-contents {
@@ -1568,7 +1570,7 @@ pre code {
     margin-top: 22px;
     margin: 0 auto;
     max-width: calc(100% - 16px);
-    width: 1110px !important;
+    width: 1095px !important;
 }
 
 .category-header-widget .category-logo.aspect-image, .category-header-widget .category-logo.aspect-image>img {
