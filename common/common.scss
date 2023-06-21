@@ -63,6 +63,10 @@ p {
     color: $color-box-gray;
 }
 
+table th {
+    color: $color-box-gray;
+}
+
 .d-header {
     background-color: $color-box-blue;
     color: $color-white;
@@ -1285,7 +1289,7 @@ li.notification.read.private-message {
 }
 
 .hamburger-panel .revamped .sidebar-section-wrapper .sidebar-section-link.active {
-    background-color: $color-box-gray-05;
+    background-color: #fff;
 }
 
 .badge-wrapper.bullet .badge-category-parent-bg+.badge-category-bg {
