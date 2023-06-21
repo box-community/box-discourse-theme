@@ -1544,3 +1544,23 @@ pre code {
 .alert {
     border-radius: 6px;
 }
+
+.page-not-found {
+    margin: 40px 0 40px 0;
+}
+
+.category-title-header {
+    width: 100vw;
+    position: relative;
+    margin-left: -50vw;
+    left: 50%;
+    background-color: $color-box-blue-10;
+}
+
+.category-header div[class^="category-title-header"] .category-title-contents {
+    color: #000;
+    margin-top: 22px;
+    margin: 0 auto;
+    max-width: calc(100% - 16px);
+    width: 1110px !important;
+}
