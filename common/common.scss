@@ -1688,6 +1688,8 @@ pre code {
 .custom-footer .list span {
     font-family: 'lato';
     font-weight: normal;
+    width: 100%;
+    display: inline-block;
 }
 
 .footer-links {
@@ -1703,6 +1705,10 @@ pre code {
     }
 }
 
-.custom-footer .second-box .links li:hover {
+.custom-footer .second-box .links li .footer-section-link:hover {
     text-decoration: underline;
+}
+
+.custom-footer .list {
+    min-width: 200px;
 }
