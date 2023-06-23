@@ -1642,11 +1642,14 @@ pre code {
 }
 
 .custom-footer .flexbox {
-    min-width: 1100px;
     position: relative;
     margin-top: 96px;
     border-top: 1px solid #2d363b;
     padding: 48px 0 1em 0;
+
+    @media (max-width: 1200px) {
+        min-width: 1100px;
+    }
 }
 
 .custom-footer .third-box .small-link,
@@ -1678,7 +1681,7 @@ pre code {
     align-items: center;
 }
 
-.custom-footer .second-box .links {
+.custom-footer .list span {
     font-family: 'lato';
 }
 
@@ -1687,6 +1690,6 @@ pre code {
     margin-top: 55px;
 }
 
-.small-link {
+.custom-footer .third-box .small-link {
     font-size: 14px;
 }
