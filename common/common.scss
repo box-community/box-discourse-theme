@@ -1643,9 +1643,50 @@ pre code {
 
 .custom-footer .flexbox {
     min-width: 1100px;
+    position: relative;
+    margin-top: 96px;
+    border-top: 1px solid #2d363b;
+    padding: 48px 0 1em 0;
 }
 
 .custom-footer .third-box .small-link,
 .custom-footer .footer-section-link-wrapper a {
     color: #8ea6b2;
+}
+
+.custom-footer .second-box .links ul {
+    margin-top: 2rem;
+}
+
+.custom-footer .list span {
+    border-bottom: 1px solid #2d363b;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    font-size: 16px;
+}
+
+.custom-footer .third-box .social {
+    position: absolute;
+    top: -96px;
+    right: 0;
+    border-right: 1px solid #2d363b;
+    border-left: 1px solid #2d363b;
+    height: 96px;
+    width: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-footer .second-box .links {
+    font-family: 'lato';
+}
+
+.footer-links {
+    margin-bottom: 90px;
+    margin-top: 55px;
+}
+
+.small-link {
+    font-size: 14px;
 }
