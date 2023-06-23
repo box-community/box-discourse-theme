@@ -1647,7 +1647,7 @@ pre code {
     border-top: 1px solid #2d363b;
     padding: 48px 0 1em 0;
 
-    @media (max-width: 1200px) {
+    @media (min-width: 1200px) {
         min-width: 1100px;
     }
 }
@@ -1655,6 +1655,10 @@ pre code {
 .custom-footer .third-box .small-link,
 .custom-footer .footer-section-link-wrapper a {
     color: #8ea6b2;
+}
+
+.custom-footer .second-box {
+    margin-bottom: 90px;
 }
 
 .custom-footer .second-box .links ul {
@@ -1683,6 +1687,7 @@ pre code {
 
 .custom-footer .list span {
     font-family: 'lato';
+    font-weight: normal;
 }
 
 .footer-links {
@@ -1692,4 +1697,12 @@ pre code {
 
 .custom-footer .third-box .small-link {
     font-size: 14px;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.custom-footer .second-box .links li:hover {
+    text-decoration: underline;
 }
