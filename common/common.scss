@@ -1658,9 +1658,12 @@ pre code {
     margin-bottom: 90px;
 }
 
+.custom-footer .second-box .links {
+    justify-content: flex-start;
+}
+
 .custom-footer .second-box .links ul {
     margin-top: 2rem;
-    justify-content: flex-start;
 }
 
 .custom-footer .list span {
