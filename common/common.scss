@@ -1135,7 +1135,6 @@ nav.post-controls .actions button {
 #topic-title .edit-topic-title #edit-title {
     min-height: 40px;
     border-radius: 6px;
-    margin-top: 2rem;
 }
 
 .new-user-wrapper .user-navigation .nav-pills {
@@ -1480,7 +1479,7 @@ button.btn-link.posts-map.badge-posts:hover {
 
 @media (max-width: 900px) {
     #main-outlet {
-        padding-top: 3.25em;
+        padding-top: 3.25em !important;
     }
 }
 
