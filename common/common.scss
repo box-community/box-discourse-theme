@@ -1476,11 +1476,8 @@ button.btn-link.posts-map.badge-posts:hover {
     align-items: center;
 }
 
-
-@media (max-width: 900px) {
-    #main-outlet {
-        padding-top: 3.25em !important;
-    }
+#main-outlet {
+    padding-top: 3.25em;
 }
 
 #navigation-bar .toggle-link {
