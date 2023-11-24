@@ -1713,3 +1713,7 @@ pre code {
 .custom-footer .list {
     min-width: 200px;
 }
+
+.badge-category__wrapper .badge-category:before {
+    border-radius: 50%;
+}
